@@ -18,6 +18,11 @@ nav .navbar-brand {
   margin-left: 37px;
 }
 
+.carousel-item img {
+  max-height: 200px;
+  margin: auto;
+}
+
 .card-title {
   font: normal bold 22px/26px Cabin;
   font-size: 25px;
@@ -68,6 +73,7 @@ nav .navbar-brand {
   height: 125px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-text-1,
@@ -75,12 +81,55 @@ nav .navbar-brand {
   margin-bottom: 20px;
 }
 
+.footer-text-1 {
+  font: normal bold 22px/26px Cabin;
+  font-size: 40px;
+  line-height: normal;
+}
+
+.footer-text-2 {
+  font: normal light 22px/26px Cabin;
+  font-size: 30px;
+}
+
 .footer-text-3 {
-  font-size: 24px;
+  font: normal 22px/26px Lobster;
+  font-size: 37px;
+}
+.ricomida-text {
+  font: normal 22px/26px Lobster;
+  font-size: 30px;
+}
+
+footer button {
+  width: 233px;
+  height: 40px;
+  background-color: #dc3545;
+  color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
 }
 
 @media (max-width: 992px) {
   .footer-section {
     height: 427;
+  }
+}
+
+@media (min-width: 992px) {
+  #text-principal {
+    font-size: 40px;
+    line-height: normal;
+    text-align: left;
+  }
+
+  .font-weight-bold {
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .custon_center{
+    text-align: center;
   }
 }
