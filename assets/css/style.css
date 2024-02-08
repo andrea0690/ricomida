@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap");
+
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  font-family: "Lobster", sans-serif;
+}
+
+nav .navbar-brand {
+  font: normal 22px/26px Lobster;
+  font-size: 37px;
+  text-align: center;
+  margin-left: 37px;
+}
+
+.card-title {
+  font: normal bold 22px/26px Cabin;
+  font-size: 25px;
+}
+
+.card-text {
+  font: normal 22px/26px Cabin;
+  font-size: 16px;
+}
+
+.card-body a {
+  font: normal bold 22px/26px Cabin;
+  font-size: 13px;
+  color: #373a3c;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+.ingredientes,
+.preparacion {
+  border-bottom: 1px solid #000;
+  width: 100%;
+  display: inline-block;
+}
+
+.default_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-section {
+  text-align: center;
+  color: white;
+}
+
+.footer-section-1 {
+  background-color: #dc3545;
+  height: 534px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-section-2 {
+  background-color: #373a3c;
+  height: 125px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-text-1,
+.footer-text-2 {
+  margin-bottom: 20px;
+}
+
+.footer-text-3 {
+  font-size: 24px;
+}
+
+@media (max-width: 992px) {
+  .footer-section {
+    height: 427;
+  }
+}
